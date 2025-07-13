@@ -1,0 +1,3 @@
+User: Seeing CORS error from frontend  
+Response: CORS was blocked because of `localhost` in `Access-Control-Allow-Origin`.  
+Fix: Set wildcard `"*"` in dev mode and whitelist domain in prod.

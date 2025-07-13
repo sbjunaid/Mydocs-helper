@@ -1,0 +1,4 @@
+Issue: WebSocket disconnects randomly  
+Analysis: Only happening in mobile Safari  
+Fix: Disabled `pingTimeout` in socket config  
+Monitoring now...

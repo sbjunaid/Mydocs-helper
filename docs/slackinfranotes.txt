@@ -1,0 +1,3 @@
+@platform FYI Heroku buildpack broke for Node 18.  
+Workaround: Set `NODE_VERSION` to 16 in `.tool-versions`  
+We'll revisit once official support is out.

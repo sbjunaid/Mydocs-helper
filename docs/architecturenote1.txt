@@ -1,0 +1,7 @@
+Title: Async File Processor Refactor Plan  
+Current: Files uploaded to S3, then polled every 10 mins  
+Proposal:  
+- Use S3 event notification → Lambda → Queue  
+- Worker picks from queue and processes  
+Reason: 10x faster and scalable  
+Concerns: Lambda retry cost, cold start

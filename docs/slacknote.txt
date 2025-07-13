@@ -1,0 +1,3 @@
+@infra heads up: EBS volumes weren't mounting due to outdated `kubelet` version.  
+Fixed by restarting EC2 instances on new AMI.  
+Reminder: all nodes must upgrade to `v1.29` this week.

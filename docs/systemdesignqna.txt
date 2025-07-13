@@ -1,0 +1,6 @@
+Question: Why use Kafka over RabbitMQ in billing?  
+Answer:  
+1. Better durability  
+2. Horizontal scalability  
+3. Native support for consumer replay  
+Drawback: More complex ops

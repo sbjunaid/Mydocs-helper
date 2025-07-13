@@ -1,0 +1,6 @@
+Date: 2024-06-28  
+Title: Notification Delay  
+Root Cause: Background job worker queue backup (30k jobs)  
+Impact: Users didn’t get alerts for 90 minutes  
+Fix: Auto-scaled worker pods, tuned retry delay  
+Follow-up: Add Prometheus alert on queue length > 10k

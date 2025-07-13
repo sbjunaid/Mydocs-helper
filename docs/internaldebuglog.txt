@@ -1,0 +1,4 @@
+[2024-06-20 14:12:44] ERROR - auth.js: Unable to parse JWT  
+Cause: Token was `undefined`  
+Triggered By: Firefox only  
+Debug Step: Wrapped token parsing in try-catch; added client logging

@@ -1,0 +1,5 @@
+Design: Payment Retry Strategy  
+Retries: 3 max with 1 min, 5 min, 15 min backoff  
+Logged to: `payments_retry.log`  
+If all fail: user flagged as `needs_payment_review`  
+Failsafe: Manually retried from Admin Dashboard

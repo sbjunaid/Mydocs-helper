@@ -1,0 +1,6 @@
+Incident: CI/CD Build Failures  
+Date: 2024-06-21  
+Summary: All GitHub Action builds failed for 3 hours.  
+Cause: Expired DockerHub token  
+Fix: Generated new token and added it to GitHub Secrets.  
+Prevention: Token expiry alert in place  

@@ -1,0 +1,5 @@
+Bug ID: #442  
+Summary: Cart empties after login  
+Hypothesis: Session data overwritten  
+Fix Attempt: Switched session middleware to `express-session` with Redis store  
+Next: Add session merge logic after login

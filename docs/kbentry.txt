@@ -1,0 +1,5 @@
+Creating API Keys in Stripe  
+1. Go to Developers > API Keys  
+2. Click "Create restricted key"  
+3. Scope: Only allow access to Charges & Customers  
+Store keys in Vault, not code!

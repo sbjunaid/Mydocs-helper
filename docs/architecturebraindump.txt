@@ -1,0 +1,4 @@
+Idea: Move image processing to Cloudflare Workers  
+Pros: CDN-level edge execution  
+Cons: 50ms CPU limit; no persistent storage  
+Alternative: AWS Lambda@Edge

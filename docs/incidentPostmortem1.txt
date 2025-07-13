@@ -1,0 +1,9 @@
+Incident Date: 2024-07-03  
+Title: S3 Bucket Misconfiguration Exposed Logs  
+Summary: Logs were accidentally made public due to incorrect IAM policy on an S3 bucket.  
+Impact: 13 hours of public exposure; no evidence of data download.  
+Root Cause: Dev environment bucket was promoted to prod without policy update.  
+Resolution: Replaced bucket with restricted access and rotated logs.  
+Next Steps:  
+- Add policy checks in CI  
+- Review all critical buckets weekly  

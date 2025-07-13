@@ -1,0 +1,4 @@
+Component: Comment Thread Renderer  
+Updated to lazy load replies after 5 visible  
+Why: Improves first paint time by ~200ms  
+Drawback: Slight delay when expanding

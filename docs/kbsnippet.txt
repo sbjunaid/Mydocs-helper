@@ -1,0 +1,4 @@
+How to Run Tests in Monorepo  
+1. `pnpm install --recursive`  
+2. `pnpm --filter <package-name> test`  
+3. Use `turbo run test` for full sweep

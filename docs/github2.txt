@@ -1,0 +1,3 @@
+A pull request lets developers notify team members when a feature is complete. It's a request to merge code changes into the main branch.
+
+Git branching allows developers to diverge from the main codebase to work on features or fixes independently without affecting production code.

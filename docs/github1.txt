@@ -1,0 +1,9 @@
+Python is a programming language.
+
+It is used to build websites, automate tasks, and analyze data.
+
+Python is known for its simplicity and readability.
+
+It supports object-oriented and functional programming.
+
+Popular libraries in Python include NumPy, Pandas, and Flask.

@@ -1,0 +1,5 @@
+Date: 2024-07-10  
+Issue: Users signed in as someone else  
+Root Cause: Session caching in reverse proxy  
+Fixed by disabling cache for auth routes  
+Also purged CDN edge cache

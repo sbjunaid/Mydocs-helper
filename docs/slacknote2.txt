@@ -1,0 +1,3 @@
+@devops Deployment failed again due to race condition in `apply-migrations`.  
+Solution: Wrapped it with `mutex-lock` job  
+Deployed successfully on retry

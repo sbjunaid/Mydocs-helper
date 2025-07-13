@@ -1,0 +1,5 @@
+How to Kill Stuck Docker Container  
+1. List: `docker ps`  
+2. Find CONTAINER ID  
+3. Force kill: `docker rm -f <id>`  
+4. If still stuck, check: `lsof -i :<port>` and kill PID

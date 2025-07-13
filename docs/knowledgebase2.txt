@@ -1,0 +1,13 @@
+How to Clone a Private GitHub Repo:
+Step 1: Generate a Personal Access Token (PAT) from GitHub settings.
+Step 2: Copy your token.
+
+For HTTPS:
+git clone https://<token>@github.com/username/repo.git
+
+For SSH (Recommended for long term):
+git@github.com:username/repo.git
+
+Optional:
+- Store token in credential manager
+- Avoid committing token by mistake
