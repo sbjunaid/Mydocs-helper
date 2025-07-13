@@ -8,7 +8,7 @@ from langchain.chains import RetrievalQA
 from langchain_community.llms import Ollama  # ✅ Ollama auto-runs locally
 
 # ✅ Title
-st.title("🧠 GitHub Knowledge Assistant (Offline with Gemma3 via Ollama)")
+st.title("🧠 Mydoc Assistant (Offline with Gemma3 via Ollama)")
 
 # ✅ Load .txt files
 def load_docs():
@@ -83,3 +83,12 @@ if query:
 
         except Exception as e:
             st.error(f"❌ Error in pipeline: {e}")
+st.markdown(
+    """
+    <hr style="margin-top: 50px;">
+    <div style='text-align: center; font-size: 14px; color: gray;'>
+        Made with 💻, 😤, and ☕ by <strong>Sayed Bakhtiar Junaid</strong> 🙋‍♂️.
+    </div>
+    """,
+    unsafe_allow_html=True
+)
